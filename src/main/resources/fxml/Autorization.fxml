@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" style="-fx-background-color: #FFFFE0;" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Autorization">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="508.0" prefWidth="640.0" style="-fx-background-color: #FFFFE0;">
+            <children>
+                <Button id="vxod" fx:id="vxod" layoutX="230.0" layoutY="374.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="179.0" style="-fx-background-color: #00FFFF;" text="Войти" />
+                <PasswordField id="pass" fx:id="pass" layoutX="237.0" layoutY="278.0" prefHeight="38.0" prefWidth="165.0" promptText="Пароль" />
+                <TextArea id="login" fx:id="login" layoutX="237.0" layoutY="222.0" prefHeight="31.0" prefWidth="165.0" promptText="Логин" />
+            </children>
+        </Pane>
+    </children>
+</GridPane>

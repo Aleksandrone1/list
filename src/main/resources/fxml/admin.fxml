@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Admin">
+   <children>
+      <TextField fx:id="rol" layoutX="247.0" layoutY="71.0" />
+      <TextField fx:id="login" layoutX="247.0" layoutY="115.0" />
+      <TextField fx:id="pass" layoutX="247.0" layoutY="162.0" />
+      <Label layoutX="110.0" layoutY="74.0" prefHeight="18.0" prefWidth="122.0" text="Роль пользователя" />
+      <Label layoutX="110.0" layoutY="118.0" prefHeight="18.0" prefWidth="79.0" text="Логин" />
+      <Label layoutX="110.0" layoutY="166.0" text="Пароль" />
+      <Button fx:id="save" layoutX="272.0" layoutY="222.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" text="Внести данные" />
+   </children>
+</AnchorPane>

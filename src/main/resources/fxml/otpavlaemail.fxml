@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Email">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="272.0" prefWidth="390.0">
+            <children>
+                <Button fx:id="otp" layoutX="171.0" layoutY="212.0" mnemonicParsing="false" text="Отправить" />
+                <TextField fx:id="komu" layoutX="134.0" layoutY="52.0" />
+                <TextField fx:id="tema" layoutX="134.0" layoutY="93.0" />
+                <TextField fx:id="adre" layoutX="134.0" layoutY="136.0" />
+                <Label layoutX="74.0" layoutY="56.0" text="Кому:" />
+                <Label layoutX="75.0" layoutY="97.0" text="Тема:" />
+                <Label layoutX="75.0" layoutY="140.0" text="Текст:" />
+            </children>
+        </Pane>
+    </children>
+</GridPane>

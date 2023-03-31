@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Zakaz">
+   <children>
+      <TableView fx:id="loc" layoutX="34.0" layoutY="53.0" prefHeight="253.0" prefWidth="441.0">
+        <columns>
+          <TableColumn prefWidth="149.60000228881836" text="Наименование товара" />
+          <TableColumn prefWidth="63.20001220703125" text="Цена" />
+            <TableColumn prefWidth="75.0" text="Количество" />
+            <TableColumn prefWidth="151.19997558593752" text="Итоговая сумма" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

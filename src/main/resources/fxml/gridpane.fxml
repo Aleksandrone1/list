@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.insertTovar">
+   <children>
+      <Button fx:id="save" layoutX="238.0" layoutY="304.0" mnemonicParsing="false" text="Сохранить измения" />
+      <Button fx:id="save1" layoutX="238.0" layoutY="351.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="125.0" text="Вернуться назад" />
+      <TextField fx:id="name" alignment="TOP_CENTER" layoutX="226.0" layoutY="71.0" promptText="Имя товара" />
+      <TextField fx:id="price" alignment="TOP_CENTER" layoutX="226.0" layoutY="118.0" promptText="Цена" />
+      <TextField fx:id="articul" alignment="TOP_CENTER" layoutX="226.0" layoutY="164.0" promptText="Артикул" />
+      <TextField fx:id="put" alignment="TOP_CENTER" layoutX="226.0" layoutY="208.0" promptText="Путь к фото" />
+      <TextField fx:id="kolichestvo" alignment="TOP_CENTER" layoutX="226.0" layoutY="249.0" promptText="Количество товара" />
+      <Accordion />
+      <Accordion layoutX="57.0" layoutY="106.0" />
+   </children>
+</AnchorPane>
